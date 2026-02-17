@@ -1,2 +1,2 @@
 # deltaa-demo
-This is demoo for Git &amp; github class
+This is demoo for Git & and github class
