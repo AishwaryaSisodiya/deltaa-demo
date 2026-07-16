@@ -1,0 +1,57 @@
+ /* /* h2{
+    color:rgb(250,20,25);
+ }
+
+p{
+    color:#ffffff;
+    background-color:#000
+}
+button{
+    color:white;
+    background-color:blue;
+} */
+/* 
+
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h3{
+    text-align: right;
+    text-decoration: line-through;
+}
+
+h2{
+    font-weight:1000;
+    text-decoration: wavy red underline;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height:1.5;
+    font-size: 20px;
+}
+
+    /* pixel is fixed we can't change them and also not used in responsive website */
+    /* we can change the font family according to our purpose just like times in roman and all */
+
+ 
+
+ /* Practice question */
+
+h1{
+    font-family:League spartan;
+    color:#ffa511;
+    text-align:center;
+    text: size 55px;
+    font-weight: 900;
+    line-spacing: 2px;
+    line-height:1.5px;
+    text-decoration:teal double underline;
+    text-transform:lowercase;
+
+
+
+}

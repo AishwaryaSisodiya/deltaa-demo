@@ -1,0 +1,107 @@
+*{
+    background-color:pink;
+}
+/* universal selector */
+
+h3, p {
+    color:purple;
+}
+
+h1{
+    color:#b92b27
+}
+
+#login{
+    color:green;
+    background-color:yellow;
+}
+/* id selector to take particular element to style with the help of name */
+
+.upvote{
+    background-color: red;
+}
+/* if we give to same class name they change their background color accornding to it*/
+
+/* descendent selector  we can separrately use anker tag as differnt to do color*/
+p a{
+    color : black;
+   
+}
+.post a {
+    color:yellow;
+}
+nav ul li  {
+    color:green;
+}
+
+nav ul li a {
+    color:brown;
+}
+/* sibling combination */
+p + h3{
+   text-decoration:underline;
+}
+.upvote + button{
+    color:black;
+    background-color: white;
+}
+/* directly button come on span used by < this symbol */
+/* div child relation */
+div > input {
+    background-color:darksalmon;
+}
+/* attribute selector */
+input[type="text"]{
+    color:red;
+}
+
+input[type="password"]{
+    color:green;
+}
+#myId p {
+    color:green;
+}
+
+/* pseudo class to click or hover that button */
+button:hover{
+    background-color:black;
+    color:white;
+}  
+/* for all button */
+
+h3:hover{
+    text-decoration:overline;
+}
+p:active{
+    font-weight: bold;
+    color:green;
+
+}
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight:bold;
+}
+
+div:nth-of-type(2n){
+    background-color:lightblue;
+}
+
+/* pseudo element to change the first element of that code */
+h1::first-letter{
+    color:blue;
+}
+p::first-line{
+    color:orange;
+}
+
+p::selection{
+    background-color:yellow;
+}
+
+h1{
+    color:purple;
+}
+/* "jo chiz baad mein aayi vo lagu hoti hai" */
+/* if we make multiple file but then also the last file which we make only that one will consider on it to apply the color */
+/* selector specfity to check when we touch the cursor on element or drag them */
+/* if specifity got same called cascading style */
